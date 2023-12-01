@@ -1,11 +1,8 @@
 ---
 layout: main
-title: eleventy example | home
+title: pouch.cafe
 ---
 
-# Eleventy Example Home
+# pouch.cafe
 
-This is the home page of the example!
-
-- [a little more on templates](fyi-templates)
-- [a little more on config](about-config)
+🚧 is under construction!! 🚧
