@@ -1,0 +1,8 @@
+#hero {
+  background-image: url(/images/grid.png);
+  height: 700px;
+  background-size: 200px 200px;
+  position: relative;
+  top: -8px;
+  z-index: -5;
+}
