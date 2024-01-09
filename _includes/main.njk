@@ -1,15 +1,31 @@
 <!DOCTYPE >
 <html>
-  <head>
+  <head profile="http://gmpg.org/xfn/11">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta property="og:image" content={{ ogimage }} />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content={{ ogdescription }} />
     <title>{{ title }}</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen" />
-  </head>
+    <link rel="icon" type="image/png" href="/images/wich.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Short+Stack&display=swap" rel="stylesheet">
 
-  <body>
-    {{ content | safe }}
-  </body>
+
+    <link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="{{ stylesheet | safe }}" type="text/css" media="screen" />
+    <script src="{{ script | safe }}" defer></script>
+  </head>
+    <body>
+        <header>
+          <nav>
+          </nav>
+        </header>
+        <main>
+          {{ content | safe }}
+        </main>
+        <footer>
+        </footer>
+    </body>
 </html>
