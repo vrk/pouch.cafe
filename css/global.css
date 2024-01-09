@@ -24,17 +24,25 @@ body {
 a {
   color: var(--body-color);
   text-underline-offset: 3px;
-  text-decoration: none;
 }
 
 a:hover {
-  color: var(--body-color);
+  text-decoration: none;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:hover {
   text-decoration: underline;
 }
 
 header {
   height: 140px;
   position: relative;
+  /* max-width: 1200px; */
+  margin: 0 auto;
 }
 
 header .house {
@@ -65,6 +73,7 @@ header .grass {
   z-index: 100;
 }
 
+#cafe-title a,
 #cafe-title a:hover {
   text-decoration: none;
 }
@@ -73,11 +82,44 @@ header nav {
   position: absolute;
   top: 0;
   bottom: 0;
-  right: 50px;
+  right: 33px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   font-size: 18px;
   gap: 25px;
+}
+
+a.button {
+  cursor: pointer;
+  display: inline-flex;
+  padding: 15px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid var(--body-color);
+  background-color: #FFDDF5;
+  color: var(--body-color);
+  text-align: center;
+  font-family: var(--body-font);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  border-radius: 15px;
+  transition: background-color 0.25s ease-out;
+  text-decoration: none;
+}
+
+a.button:hover {
+  text-decoration: none;
+  background-color: white;
+}
+
+a.button:active {
+  position: relative;
+  top: 3px;
 }
