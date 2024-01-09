@@ -18,3 +18,26 @@ body {
   letter-spacing: 0.01ch;
   opacity: 1;
 }
+
+header {
+  height: 140px;
+  position: relative;
+  overflow: hidden;
+}
+
+header .house {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+}
+
+header .grass {
+  height: 9.78px;
+  position: absolute;
+  bottom: 2px;
+  left: 160px;
+  right: 2px;
+  background-image: url(/images/pouchgrass.svg);
+  background-repeat: repeat-x;
+  background-size: 500px 9.78px;
+}
