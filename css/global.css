@@ -1,6 +1,7 @@
 :root {
   --title-font: "Sacramento", cursive;
   --body-font: "Short Stack", sans-serif;
+  --body-color: rgb(42, 39, 39);
 }
 
 body,
@@ -17,12 +18,23 @@ body {
   line-height: 1.8;
   letter-spacing: 0.01ch;
   opacity: 1;
+  color: var(--body-color);
+}
+
+a {
+  color: var(--body-color);
+  text-underline-offset: 3px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--body-color);
+  text-decoration: underline;
 }
 
 header {
   height: 140px;
   position: relative;
-  overflow: hidden;
 }
 
 header .house {
@@ -36,8 +48,36 @@ header .grass {
   position: absolute;
   bottom: 3px;
   left: 160px;
-  right: 2px;
+  right: 10px;
   background-image: url(/images/pouchgrass.png);
   background-repeat: repeat-x;
   background-size: auto 7.32px;
+}
+
+#cafe-title {
+  margin: 0;
+  position: absolute;
+  left: 170px;
+  bottom: -53px;
+  font-family: var(--title-font);
+  font-weight: normal;
+  font-size: 110px;
+  z-index: 100;
+}
+
+#cafe-title a:hover {
+  text-decoration: none;
+}
+
+header nav {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 18px;
+  gap: 25px;
 }
