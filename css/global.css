@@ -34,10 +34,10 @@ header .house {
 header .grass {
   height: 9.78px;
   position: absolute;
-  bottom: 2px;
+  bottom: 3px;
   left: 160px;
   right: 2px;
-  background-image: url(/images/pouchgrass.svg);
+  background-image: url(/images/pouchgrass.png);
   background-repeat: repeat-x;
-  background-size: 500px 9.78px;
+  background-size: auto 7.32px;
 }
