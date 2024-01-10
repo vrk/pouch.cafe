@@ -8,6 +8,11 @@
   position: relative;
 }
 
+.toaster-cover,
+.rprpg-cover {
+  max-width: 100%;
+}
+
 #hero::before {
   content: "";
   height: var(--hero-height);
@@ -65,7 +70,8 @@
 }
 
 #intro .cafetable {
-  height: 435px;
+  max-width: 90%;
+  width: 502px;
   aspect-ratio: 502/435;
 }
 
@@ -110,6 +116,7 @@ h2 {
 }
 
 #newarrivals small {
+  text-align: center;
   font-size: 14px;
 }
 
@@ -153,7 +160,7 @@ h2 {
 
 .rprpg-cover {
   aspect-ratio: 348/450;
-  height: 400px;
+  width: 300px;
   transform: rotate(-5deg);
 }
 
@@ -176,7 +183,7 @@ h2 {
 
 .toaster-cover {
   aspect-ratio: 271/350;
-  height: 325px;
+  width: 225px;
 }
 
 .toaster .zine-explained {
@@ -250,7 +257,7 @@ h2 {
 
 
 #intro .cafetable {
-  height: 300px;
+  width: 350px;
 }
 
 #intro .content {
@@ -293,11 +300,11 @@ h2 {
 }
 
 .rprpg-cover {
-  height: 250px;
+  width: 175px;
 }
 
 .toaster-cover {
-  height: 200px;
+  width: 150px;
 }
 
 .zine-explained {
@@ -329,6 +336,11 @@ h2 {
 #newarrivals h2,
 #announcements h2 {
   padding-left: 15px;
+}
+
+
+h2 {
+  font-size: 60px;
 }
 
 }
