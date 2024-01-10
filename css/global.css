@@ -219,7 +219,7 @@ footer h1 {
     height: 0px;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
-    top: calc(var(--mobile-header-height) - 10px);
+    top: calc(var(--desktop-header-height) - 10px);
     left: 0px;
     z-index: 80;
     border-bottom: 2px solid var(--golden-tan);
@@ -244,12 +244,20 @@ footer h1 {
     box-shadow: 0;
   }
   .nav > #nav-check:checked ~ .nav-links {
-    height: calc(100vh - var(--mobile-header-height));
+    height: calc(100vh - var(--desktop-header-height));
     overflow-y: hidden;
   }
 }
 
 @media (max-width:600px) {
+
+.nav > .nav-links {
+  top: calc(var(--mobile-header-height) - 10px);
+}
+
+.nav > #nav-check:checked ~ .nav-links {
+  height: calc(100vh - var(--mobile-header-height));
+}
 
 header {
   height: var(--mobile-header-height);
