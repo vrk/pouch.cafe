@@ -16,10 +16,10 @@ stylesheet: css/index.css
 
 <div id="intro">
   <div class="content">
-    <img src="/images/table.png" class="table" />
+    <img src="/images/table.png" class="cafetable" />
     <div class="explanation">
       <p>
-        Pouch Cafe is my tiny online zine store. It’s the home of Pouch, the zine for stationery lovers, plus some other zines and other things!
+        Pouch Cafe is my tiny online store. It’s the home of Pouch, the zine for stationery lovers, plus some other zines and other things!
       </p>
       <p>
         Take a look around and I hope you enjoy your stay! 💞

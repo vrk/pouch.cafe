@@ -64,15 +64,19 @@
   font-size: 36px;
 }
 
-#intro .table {
-  width: 502px;
+#intro .cafetable {
   height: 435px;
+  aspect-ratio: 502/435;
 }
 
 #intro .content {
-  height: 700px;
   gap: 100px;
+  padding: 20px;
+}
 
+#intro {
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 h2 {
@@ -86,7 +90,7 @@ h2 {
 #newarrivals h2,
 #announcements h2 {
   position: relative;
-  left: 25px;
+  padding-left: 25px;
   z-index: -50;
 }
 
@@ -243,6 +247,21 @@ h2 {
   grid-auto-flow: row;
 }
 
+
+
+#intro .cafetable {
+  height: 300px;
+}
+
+#intro .content {
+  font-size: 18px;
+  gap: 50px;
+}
+
+#newarrivals h2 {
+  top: 25px;
+}
+
 }
 
 @media (max-width:600px) {
@@ -301,6 +320,15 @@ h2 {
 .table .row {
   font-size: 18px;
   grid-template-columns: 1fr;
+}
+
+#intro .content {
+  flex-direction: column;
+}
+
+#newarrivals h2,
+#announcements h2 {
+  padding-left: 15px;
 }
 
 }

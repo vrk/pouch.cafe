@@ -145,7 +145,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 100px;
+  padding: 100px 25px;
   background-color: #F8F5E6;
   border-bottom: 5px solid var(--dark-tan);
 }
@@ -154,6 +154,7 @@ footer h1 {
   font-weight: normal;
   margin-top: 0;
   font-size: 40px;
+  text-align: center;
 }
 
 #social {
@@ -288,4 +289,10 @@ header .grass {
   height: 100%;
   display: block;
 }
+
+#social,
+footer {
+  flex-direction: column;
+}
+
 }
