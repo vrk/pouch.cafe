@@ -150,6 +150,7 @@ footer {
   padding: 100px 25px;
   background-color: #F8F5E6;
   border-bottom: 5px solid var(--dark-tan);
+  text-align: center;
   margin-top: 100px;
 }
 
