@@ -2,7 +2,13 @@
   --title-font: "Sacramento", cursive;
   --body-font: "Short Stack", sans-serif;
   --body-color: rgb(42, 39, 39);
+  --light-gray: #E7E9EE;
+  --lighter-tan: #fffdf5;
+  --light-tan: #F8F5E6;
+  --dark-tan: #866B44; 
+  --golden-tan: rgb(194, 135, 32);
   --content-width: 1200px;
+  --desktop-header-height: 140px;
 }
 
 body,
@@ -40,7 +46,7 @@ nav a:hover {
 }
 
 header {
-  height: 140px;
+  height: var(--desktop-header-height);
   position: relative;
   /* max-width: 1200px; */
   margin: 0 auto;
@@ -50,11 +56,13 @@ header .house {
   position: absolute;
   bottom: 0;
   left: 10px;
+  z-index: 99;
 }
 
 header .grass {
   height: 9.78px;
   position: absolute;
+  z-index: 99;
   bottom: 3px;
   left: 160px;
   right: 10px;
@@ -78,6 +86,8 @@ header .grass {
 #cafe-title a,
 #cafe-title a:hover {
   text-decoration: none;
+  height: 100%;
+  display: block;
 }
 
 header nav {
@@ -133,7 +143,7 @@ footer {
   align-items: center;
   padding: 100px;
   background-color: #F8F5E6;
-  border-bottom: 5px solid #866B44;
+  border-bottom: 5px solid var(--dark-tan);
 }
 
 footer h1 {
@@ -155,5 +165,78 @@ footer h1 {
 }
 
 #social .button:hover {
-  background-color: rgb(194, 135, 32);
+  background-color: var(--golden-tan);
+}
+
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > #nav-check {
+  display: none;
+}
+
+@media (max-width:1024px) {
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 80;
+    height: 100%;
+  }
+  .nav > .nav-btn > label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    height: 100%;
+    padding: 13px;
+  }
+
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid var(--body-color);
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: var(--lighter-tan);
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: calc(var(--desktop-header-height) - 10px);
+    left: 0px;
+    z-index: 80;
+  }
+  .nav > .nav-links > a {
+    display: flex;
+    width: 100%;
+    height: 75px;
+    font-size: 24px;
+    border-bottom: 1px solid var(--golden-tan);
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-tan);
+  }
+  .nav > .nav-links > a:hover {
+    text-decoration: none;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - var(--desktop-header-height));
+    overflow-y: hidden;
+  }
 }

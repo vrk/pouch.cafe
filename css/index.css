@@ -193,7 +193,7 @@ h2 {
   padding: 0 5%;
   height: 85px;
   align-items: center;
-  border-bottom: 1px solid #E7E9EE;
+  border-bottom: 1px solid var(--light-gray);
 }
 
 .table .row .author,
