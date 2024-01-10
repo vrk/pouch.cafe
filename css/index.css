@@ -77,43 +77,103 @@ h2 {
   margin: 0 auto;
 }
 
-#announcements h2,
-#newarrivals h2 {
+#newarrivals h2,
+#announcements h2 {
   position: relative;
-  top: 50px;
   left: 25px;
   z-index: -50;
 }
 
+#newarrivals h2 {
+  top: 35px;
+}
+
+#announcements h2 {
+  top: 50px;
+}
+
 #newarrivals .content {
-  height: 500px;
+  height: 400px;
   gap: 10px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
 }
 
 .rprpg,
 .toaster {
   height: 100%;
-  flex-grow: 1;
   position: relative;
 }
 
 .rprpg {
   background-color: #DCF2FF;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 3fr 2fr;
+  align-items: center;
+  padding: 1em;
+  gap: 10px;
 }
 
-.rprpg img {
-  position: absolute;
-  bottom: 0;
+.zine-explained {
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+}
+
+/* ty https://owumaro.github.io/text-stroke-generator/ */
+.whiteoutlinetext {
+  text-shadow: rgb(255, 255, 255) 3px 0px 0px, rgb(255, 255, 255) 2.83487px 0.981584px 0px, rgb(255, 255, 255) 2.35766px 1.85511px 0px, rgb(255, 255, 255) 1.62091px 2.52441px 0px, rgb(255, 255, 255) 0.705713px 2.91581px 0px, rgb(255, 255, 255) -0.287171px 2.98622px 0px, rgb(255, 255, 255) -1.24844px 2.72789px 0px, rgb(255, 255, 255) -2.07227px 2.16926px 0px, rgb(255, 255, 255) -2.66798px 1.37182px 0px, rgb(255, 255, 255) -2.96998px 0.42336px 0px, rgb(255, 255, 255) -2.94502px -0.571704px 0px, rgb(255, 255, 255) -2.59586px -1.50383px 0px, rgb(255, 255, 255) -1.96093px -2.27041px 0px, rgb(255, 255, 255) -1.11013px -2.78704px 0px, rgb(255, 255, 255) -0.137119px -2.99686px 0px, rgb(255, 255, 255) 0.850987px -2.87677px 0px, rgb(255, 255, 255) 1.74541px -2.43999px 0px, rgb(255, 255, 255) 2.44769px -1.73459px 0px, rgb(255, 255, 255) 2.88051px -0.838247px 0px;
+}
+
+.zine-explained big {
+  font-size: 40px;
+}
+
+.coverbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rprpg-cover {
+  aspect-ratio: 348/450;
+  height: 400px;
+  transform: rotate(-5deg);
+}
+
+.toastercoverbox {
+  transform: rotate(5deg);
+}
+
+.toastercoverbox p {
+  font-size: 14px;
+
 }
 
 .toaster {
   background-color: #F9FFB9;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 4fr 5fr;
+  padding: 1.5em;
 }
 
-.toaster img {
-  position: absolute;
-  bottom: 0;
-  right: 0;
+.toaster-cover {
+  aspect-ratio: 271/350;
+  height: 325px;
+}
+
+.toaster .zine-explained {
+  margin-top: 30px;
+}
+
+#toasterthecat {
+  line-height: 1.2;
+  display: block;
+  margin: 5px 0;
 }
 
 .table {

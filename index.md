@@ -19,7 +19,7 @@ stylesheet: css/index.css
     <img src="/images/table.png" class="table" />
     <div class="explanation">
       <p>
-        Pouch Cafe is my online store. It’s the home of Pouch, the zine for stationery lovers, plus some other zines and other things!
+        Pouch Cafe is my tiny online zine store. It’s the home of Pouch, the zine for stationery lovers, plus some other zines and other things!
       </p>
       <p>
         Take a look around and I hope you enjoy your stay! 💞
@@ -34,10 +34,31 @@ stylesheet: css/index.css
   <h2>new arrivals</h2>
   <div class="content">
     <div class="rprpg">
-      <img src="/images/rprpgheld.png" height="450"/>
+      <div class="coverbox">
+        <a href="/rprpg"><img src="/images/rprpg-cover.png" class="rprpg-cover"/></a>
+      </div>
+      <div class="zine-explained">
+        <p class="whiteoutlinetext">
+          A <strong>choose-your-own-adventure</strong> in which you
+          <br>
+        <big><em>MIGHT</em></big><br>
+        turn into a printer (??)
+        </p>
+        <a href="/rprpg" class="button">Buy?!?</a>
+      </div> 
     </div>
     <div class="toaster">
-      <img src="/images/toaster-cover.png" height="350"/>
+      <div class="zine-explained">
+        <p class="whiteoutlinetext">
+          A <strong>sticker zine</strong> <small>ft</small>
+        <big id="toasterthecat">Toaster<br> the cat</big>
+        </p>
+        <a href="/toasterzine" class="button">Buy!!</a>
+      </div> 
+      <div class="coverbox toastercoverbox">
+          <a href="/toasterzine"><img src="/images/toaster-cover.png" class="toaster-cover" /></a>
+          <p class="whiteoutlinetext">each cat is also a vinyl sticker!</p>
+      </div> 
     </div>
   </div>
 </div>
