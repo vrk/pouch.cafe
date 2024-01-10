@@ -57,7 +57,7 @@ stylesheet: css/index.css
       </div> 
       <div class="coverbox toastercoverbox">
           <a href="/toasterzine"><img src="/images/toaster-cover.png" class="toaster-cover" /></a>
-          <p class="whiteoutlinetext">each cat is also a vinyl sticker!</p>
+          <small class="whiteoutlinetext">each cat is also a vinyl sticker!</small>
       </div> 
     </div>
   </div>
