@@ -19,7 +19,7 @@ stylesheet: css/index.css
     <img src="/images/table.png" class="cafetable" />
     <div class="explanation">
       <p>
-        Pouch Cafe is my tiny online store. It’s the home of <a href="/pouch">Pouch</a> and some other zines and other things!
+        Pouch Cafe is my tiny online store that I'm running just for fun. It’s the home of <a href="/pouch">Pouch</a> and some other zines and other things!
       </p>
       <p>
         Take a look around and I hope you enjoy your stay 💞
