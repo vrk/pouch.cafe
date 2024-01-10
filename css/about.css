@@ -1,0 +1,24 @@
+.page {
+  font-size: 20px;
+  width: 700px;
+  max-width: 90%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.page h1,
+.page h2,
+.page h3 {
+  font-family: var(--body-font);
+  text-align: center;
+  color: #18C1F7;
+  margin-top: 100px;
+}
+
+.page h1 {
+  font-size: 40px;
+}
+
+.page h2 {
+  font-size: 32px;
+}
