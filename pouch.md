@@ -14,6 +14,8 @@ I am a huge fan of paper and stationery, and I thought, what better way to share
 
 Currently, _Pouch_ is 100% written, designed, illustrated, and produced by a team of one: **me, vrk**! It is a passion project and a labor of love 💖
 
+I'd love to [invite contributors](/contribute) for the first issue!
+
 
 ## _Pouch_ issue #1
 
@@ -24,10 +26,5 @@ The first issue of _Pouch_ is launching in **Spring 2024**.
 <p class="center">
 <a href="/preorder" class="button">Pre-order</a>
 </p>
-
-<br>
-
-You can also [contribute to Pouch](/contribute) to be featured on the _Pouch_ website and in the zine!
-
 
 </div>
