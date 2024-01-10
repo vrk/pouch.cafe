@@ -8,7 +8,10 @@
   --dark-tan: #866B44; 
   --golden-tan: rgb(194, 135, 32);
   --content-width: 1200px;
+
+
   --desktop-header-height: 140px;
+  --mobile-header-height: 100px;
 }
 
 body,
@@ -48,7 +51,6 @@ nav a:hover {
 header {
   height: var(--desktop-header-height);
   position: relative;
-  /* max-width: 1200px; */
   margin: 0 auto;
 }
 
@@ -56,6 +58,8 @@ header .house {
   position: absolute;
   bottom: 0;
   left: 10px;
+  height: 90%;
+  aspect-ratio: 151/120;
   z-index: 99;
 }
 
@@ -215,9 +219,11 @@ footer h1 {
     height: 0px;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
-    top: calc(var(--desktop-header-height) - 10px);
+    top: calc(var(--mobile-header-height) - 10px);
     left: 0px;
     z-index: 80;
+    border-bottom: 2px solid var(--golden-tan);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
   }
   .nav > .nav-links > a {
     display: flex;
@@ -234,9 +240,44 @@ footer h1 {
   }
   .nav > #nav-check:not(:checked) ~ .nav-links {
     height: 0px;
+    border-bottom: 0;
+    box-shadow: 0;
   }
   .nav > #nav-check:checked ~ .nav-links {
-    height: calc(100vh - var(--desktop-header-height));
+    height: calc(100vh - var(--mobile-header-height));
     overflow-y: hidden;
   }
+}
+
+@media (max-width:600px) {
+
+header {
+  height: var(--mobile-header-height);
+}
+
+header .house {
+  left: 10px;
+}
+
+header .grass {
+  bottom: 0px;
+  left: 123px;
+  right: 10px;
+  background-size: auto 6px;
+}
+
+#cafe-title {
+  left: 125px;
+  bottom: -30px;
+  line-height: 1.8;
+  font-family: var(--title-font);
+  font-size: 65px;
+}
+
+#cafe-title a,
+#cafe-title a:hover {
+  text-decoration: none;
+  height: 100%;
+  display: block;
+}
 }
