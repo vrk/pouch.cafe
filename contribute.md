@@ -15,7 +15,11 @@ You can contribute to _Pouch_ via the call for submissions below.
 
 ## Call for Submissions
 
-_Deadline for issue #1 is **Sunday March 18, 2024**_
+<p class="center">
+  <em>Deadline for issue #1 is <strong>Sunday March 18, 2024</strong></em>
+</p>
+
+<br>
 
 **Journalers & Planner People:**
 
@@ -35,8 +39,8 @@ Do you have a favorite pen? Tell me about it and it may be featured in _Pouch_!
 ### Contribution details
 
 - All submissions will be shown on the Pouch Cafe website, and some will be printed in the issue!
-- All contributors will receive a free digital download of Pouch issue #1.
-- Pouch is an all ages magazine, so please keep contributions suitable for any age 💞
+- All contributors will receive a free digital download of _Pouch_ issue #1.
+- _Pouch_ is an all ages magazine, so please keep contributions suitable for any age 💞
 
 Send any questions to <code>hello@pouch.cafe</code>.
 
