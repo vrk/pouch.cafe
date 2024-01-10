@@ -8,13 +8,22 @@ stylesheet: /css/about.css
 
 # Contribute to _Pouch_
 
+Would you like to be part of the first-ever issue of _Pouch_? 
+I'd love to include your work!!
 
+You can contribute to _Pouch_ via the call for submissions below.
+
+_Deadline for issue #1 is **Sunday March 18, 2024**_
+
+## Call for Submissions
 
 **Journalers:**
 
 If you love making cute journal layouts, I'd love to include a picture of your favorite journal spread or planner page in the first issue of _Pouch_!
 
 - [Submit a journal layout]()
+
+<br>
 
 **Pen obsessed:**
 
@@ -23,7 +32,7 @@ Do you have a favorite pen? Tell me about it and it may be featured in _Pouch_!
 - [Submit a favorite pen]()
 
 
-## Contribution details:
+## Contribution details
 
 - All submissions will be shown on the Pouch Cafe website, and some will be printed in the issue!
 - All contributors will get a FREE digital download of Pouch issue #1.

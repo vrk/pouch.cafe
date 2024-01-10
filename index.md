@@ -1,6 +1,6 @@
 ---
 layout: main
-title: Pouch Cafe
+title: pouch.cafe
 stylesheet: css/index.css
 ---
 <div id="hero">
@@ -9,7 +9,7 @@ stylesheet: css/index.css
     <div class="herotext">
       <h2>An indie magazine for<br>paper lovers</h2>
       <a href="/preorder" class="button">Pre-order</a>
-      <p class="psst">Psst: There’s still time to <a href="/submit">contribute to Pouch</a>, too!</p>
+      <p class="psst">Psst: There’s still time to <a href="/contribute">contribute to Pouch</a>, too!</p>
     </div>
   </div>
 </div>
@@ -19,10 +19,10 @@ stylesheet: css/index.css
     <img src="/images/table.png" class="cafetable" />
     <div class="explanation">
       <p>
-        Pouch Cafe is my tiny online store. It’s the home of Pouch, the zine for stationery lovers, plus some other zines and other things!
+        Pouch Cafe is my tiny online store. It’s the home of <a href="/pouch">Pouch</a> and some other zines and other things!
       </p>
       <p>
-        Take a look around and I hope you enjoy your stay! 💞
+        Take a look around and I hope you enjoy your stay 💞
       </p>
     </div>
   </div>
@@ -68,17 +68,10 @@ stylesheet: css/index.css
   <div class="content table">
     <div class="row">
       <span class="subject">
-        ∙ <a href="/news/submit-jan92024">Submit your journal layout to pouch</a>
+        ∙ Pouch Cafe is LIVE!
       </span>
       <span class="author">vrk</span>
-      <span class="date">Jan 9 2024</span>
-    </div>
-    <div class="row">
-      <span class="subject">
-        ∙ <a href="/news/submit-jan92024">Submit your journal layout to pouch</a>
-      </span>
-      <span class="author">vrk</span>
-      <span class="date">Jan 9 2024</span>
+      <span class="date">Jan 10 2024</span>
     </div>
   </div>
 </div>
