@@ -19,13 +19,45 @@ stylesheet: css/index.css
     <img src="/images/table.png" class="table" />
     <div class="explanation">
       <p>
-        Pouch Cafe is my online store. It’s the home of Pouch, the zine for stationery lovers, and I also sell other zines and other things here!
+        Pouch Cafe is my online store. It’s the home of Pouch, the zine for stationery lovers, plus some other zines and other things!
       </p>
       <p>
-        I hope you enjoy your stay! 💞
+        Take a look around and I hope you enjoy your stay! 💞
       </p>
     </div>
   </div>
 </div>
 
 
+
+<div id="newarrivals">
+  <h2>new arrivals</h2>
+  <div class="content">
+    <div class="rprpg">
+      <img src="/images/rprpgheld.png" height="450"/>
+    </div>
+    <div class="toaster">
+      <img src="/images/toaster-cover.png" height="350"/>
+    </div>
+  </div>
+</div>
+
+<div id="announcements">
+  <h2>announcements</h2>
+  <div class="content table">
+    <div class="row">
+      <span class="subject">
+        ∙ <a href="/news/submit-jan92024">Submit your journal layout to pouch</a>
+      </span>
+      <span class="author">vrk</span>
+      <span class="date">Jan 9 2024</span>
+    </div>
+    <div class="row">
+      <span class="subject">
+        ∙ <a href="/news/submit-jan92024">Submit your journal layout to pouch</a>
+      </span>
+      <span class="author">vrk</span>
+      <span class="date">Jan 9 2024</span>
+    </div>
+  </div>
+</div>

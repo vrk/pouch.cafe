@@ -15,13 +15,16 @@
   z-index: -5;
 }
 
-.content {
+#hero .content {
   height: 100%;
+}
+
+.content {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  max-width: 1200px;
+  max-width: var(--content-width);
   margin: 0 auto;
 }
 
@@ -51,8 +54,8 @@
 }
 
 .herotext h2 {
-  margin: 0;
-  font-weight: normal;
+  font-family: var(--body-font);
+  font-size: 36px;
 }
 
 #intro .table {
@@ -63,5 +66,78 @@
 #intro .content {
   height: 700px;
   gap: 100px;
+
+}
+
+h2 {
+  font-family: var(--title-font);
+  font-weight: normal;
+  font-size: 96px;
+  max-width: var(--content-width);
+  margin: 0 auto;
+}
+
+#announcements h2,
+#newarrivals h2 {
+  position: relative;
+  top: 50px;
+  left: 25px;
+  z-index: -50;
+}
+
+#newarrivals .content {
+  height: 500px;
+  gap: 10px;
+}
+
+.rprpg,
+.toaster {
+  height: 100%;
+  flex-grow: 1;
+  position: relative;
+}
+
+.rprpg {
+  background-color: #DCF2FF;
+}
+
+.rprpg img {
+  position: absolute;
+  bottom: 0;
+}
+
+.toaster {
+  background-color: #F9FFB9;
+}
+
+.toaster img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.table {
+  margin-top: 25px;
+  margin-bottom: 125px;
+}
+
+#announcements .content.table {
+  flex-direction: column;
+}
+
+.table .row {
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  width: 100%;
+  padding: 0 5%;
+  height: 85px;
+  align-items: center;
+  border-bottom: 1px solid #E7E9EE;
+}
+
+.table .row .author,
+.table .row .date {
+  text-align: right;
 
 }

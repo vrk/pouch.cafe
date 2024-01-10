@@ -2,6 +2,7 @@
   --title-font: "Sacramento", cursive;
   --body-font: "Short Stack", sans-serif;
   --body-color: rgb(42, 39, 39);
+  --content-width: 1200px;
 }
 
 body,
@@ -122,4 +123,36 @@ a.button:hover {
 a.button:active {
   position: relative;
   top: 3px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  background-color: #F8F5E6;
+  border-bottom: 5px solid #866B44;
+}
+
+footer h1 {
+  font-weight: normal;
+  margin-top: 0;
+  font-size: 40px;
+}
+
+#social {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+#social .button {
+  border: none;
+  background-color: var(--body-color);
+  color: white;
+}
+
+#social .button:hover {
+  background-color: rgb(194, 135, 32);
 }
