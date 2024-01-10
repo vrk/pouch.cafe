@@ -1,6 +1,6 @@
 ---
 layout: main
-title: pouch.cafe
+title: About — Pouch Cafe
 stylesheet: /css/about.css
 ---
 
@@ -8,11 +8,10 @@ stylesheet: /css/about.css
 
 # Welcome to Pouch Cafe
 
-Hello friend, my name is **vrk**! I love making zines and other paper things. I occasionally daydream about opening a _real_ brick & mortar zine store slash stationery cafe... but that sounds like a lot of work 😆
+Hello friend, my name is **vrk**! I love making zines and other paper things. I occasionally daydream about opening a real (like brick & mortar) zine store slash stationery cafe... but that sounds like a lot of work 😆
 
 So I decided to make a tiny online store instead!
 
-Welcome to Pouch Cafe!!
-
+Welcome to Pouch Cafe!! It is the home of [Pouch zine](/pouch) and [my other zines too](https://pouchcafe.gumroad.com/).
 
 </div>
