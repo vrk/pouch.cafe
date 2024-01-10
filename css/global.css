@@ -107,6 +107,7 @@ header nav {
   gap: 25px;
 }
 
+button,
 a.button {
   cursor: pointer;
   display: inline-flex;
@@ -130,6 +131,7 @@ a.button {
   text-decoration: none;
 }
 
+button:hover,
 a.button:hover {
   text-decoration: none;
   background-color: white;
@@ -163,12 +165,14 @@ footer h1 {
   gap: 30px;
 }
 
+#newsletter-embed button,
 #social .button {
   border: none;
   background-color: var(--body-color);
   color: white;
 }
 
+#newsletter-embed button:hover,
 #social .button:hover {
   background-color: var(--golden-tan);
 }
