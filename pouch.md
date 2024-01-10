@@ -19,11 +19,13 @@ Currently, _Pouch_ is 100% written, designed, illustrated, and produced by a tea
 
 The first issue of _Pouch_ is launching in **Spring 2024**.
 
-**Pre-order now** to be the first to receive a copy:
+**Pre-order now** to be among the first to receive a copy:
 
 <p class="center">
 <a href="/preorder" class="button">Pre-order</a>
 </p>
+
+<br>
 
 You can also [contribute to Pouch](/contribute) to be featured on the _Pouch_ website and in the zine!
 
