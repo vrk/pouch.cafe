@@ -11,7 +11,7 @@
 
 
   --desktop-header-height: 140px;
-  --mobile-header-height: 100px;
+  --mobile-header-height: 80px;
 }
 
 body,
@@ -269,18 +269,18 @@ header .house {
 }
 
 header .grass {
-  bottom: 0px;
-  left: 123px;
+  bottom: -2px;
+  left: 99px;
   right: 10px;
-  background-size: auto 6px;
+  background-size: auto 4px;
 }
 
 #cafe-title {
-  left: 125px;
-  bottom: -30px;
+  left: 105px;
+  bottom: -25px;
   line-height: 1.8;
   font-family: var(--title-font);
-  font-size: 65px;
+  font-size: 60px;
 }
 
 #cafe-title a,
