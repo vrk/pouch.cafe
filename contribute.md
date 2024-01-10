@@ -13,9 +13,9 @@ I'd love to include your work!!
 
 You can contribute to _Pouch_ via the call for submissions below.
 
-_Deadline for issue #1 is **Sunday March 18, 2024**_
-
 ## Call for Submissions
+
+_Deadline for issue #1 is **Sunday March 18, 2024**_
 
 **Journalers & Planner People:**
 
