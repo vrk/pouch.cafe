@@ -63,6 +63,7 @@ stylesheet: css/index.css
   </div>
 </div>
 
+<!--
 <div id="announcements">
   <h2>announcements</h2>
   <div class="content table">
@@ -75,3 +76,4 @@ stylesheet: css/index.css
     </div>
   </div>
 </div>
+-->
