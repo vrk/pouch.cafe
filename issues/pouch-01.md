@@ -8,13 +8,13 @@ stylesheet: /css/about.css
 
 # Pouch Issue #1
 
-For product listing, I try to list multiple small business sellers for each stationery item when possible! If you know a small business that I didn't list that is also selling this stationery item, feel free to email `hello@pouch.cafe` and I'll add it :)
+_NOTE: I try to list multiple small business sellers for each stationery item when possible! Feel free to email `hello@pouch.cafe` with any sellers I missed who stock that particular item :)_
+
 
 **Cover:**
 
 - Cover illustration by vrk
-- The pouch illustrated is the Delfonics Utility Pouch
-- Buy:
+- Delfonics Utility Pouch
   - [JetPens](https://www.jetpens.com/Delfonics-Carrying-Bag-S-A6-Pink/pd/38397)
   - [nico neco](https://www.niconeco.com/search?type=product&q=*delfonics*) _(fun fact: I used these exact photos as references for the illustration!)_
   - [The Stationery Selection](https://thestationeryselection.com/products/delfonics-utility-pouch-s)
@@ -32,7 +32,7 @@ For product listing, I try to list multiple small business sellers for each stat
 - Zebra Sarasa Mark On Gel Pen - 0.5 mm - Black
   - [JetPens](https://www.jetpens.com/Zebra-Sarasa-Mark-On-Gel-Pen-0.5-mm-Black/pd/23781)
   - [Yoseka Stationery](https://yosekastationery.com/products/sarasa-mark-on-gel-pen-0-5mm?_pos=1&_sid=a21bdf65a&_ss=r)
-- Paper from Muji (A5 grid)
+- [Muji Grid Loose Leaf - A5](https://www.muji.us/products/grid-loose-leaf-s265) (I cut off the part with the holes)
 
 **Pages 4 & 5:**
 
@@ -56,7 +56,7 @@ For product listing, I try to list multiple small business sellers for each stat
   - [Yoseka Stationery](https://yosekastationery.com/products/the-brass-clip-trc-logo)
 - Midori MD
   - Anywhere where Japanese notebooks are sold 😂
-  - For instance: [JetPens](https://www.jetpens.com/search?q=midori+md&v=2), [nico neco](https://www.niconeco.com/search?type=product&q=*midori%20md*), [Yoseka](https://yosekastationery.com/search?q=Midori+MD), 
+  - For instance: [JetPens](https://www.jetpens.com/search?q=midori+md&v=2), [nico neco](https://www.niconeco.com/search?type=product&q=*midori%20md*), [Yoseka](https://yosekastationery.com/search?q=Midori+MD)
 - Moleskine
   - ...Anywhere American notebooks are sold!
   - For instance: [Artist & Craftsman](https://artistcraftsman.com/search.php?search_query=moleskine), [Blick](https://www.dickblick.com/brands/moleskine/)
@@ -83,6 +83,16 @@ For product listing, I try to list multiple small business sellers for each stat
 
 **Page 21**
 
-- 
+- [Mind Wave In the Forest - Squirrel](https://yosekastationery.com/products/mind-wave-in-the-forest-squirrel)
+- [FURUKAWA Mino Paper 3 Illustration Letterset - Tori](https://www.niconeco.com/search?type=product&q=*letter%20set*)
+- [Deco Stickers - Breakfast](https://stationerypal.com/products/deco-stickers-breakfast?_pos=7&_sid=05c43065b&_ss=r)
+- [Cream And Flower Aesthetic Summer Deco Sticker](https://stationerypal.com/products/cream-and-flower-aesthetic-summer-deco-sticker?_pos=1&_sid=76ba0b5e9&_ss=r)
+- Suatelier - In the Library
+  - [Journal Station](https://journalstation.net/products/suatelier-in-the-library-no-1143)
+  - [Mochithings](https://shop.mochithings.com/products/132315?gad_source=1)
+  - [nico neco](https://www.niconeco.com/collections/sautelier/products/suatelier-in-the-library-sticker-1143) 
+  - [Pinky Elephant](https://thepinkyelephant.com/products/suatelier-sticker-sheet-no-1143-in-the-library)
+  - [Sumthings of Mine](https://www.sumthingsofmine.com/products/suatelier-sticker-in-the-library)
+  - [Washi Wednesday](https://washiwednesday.myshopify.com/products/suatelier-in-the-library-sticker) 
 
 </div>
