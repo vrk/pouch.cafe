@@ -21,6 +21,8 @@ I'd love to [invite contributors](/contribute) for the first issue!
 
 The first issue of _Pouch_ is launching in **Spring 2024**.
 
+This is the pilot issue of the magazine! The reception of this issue will determine if and when issue #2 will come out, so your support is greatly appreciated 💞
+
 **Preorder now** to be among the first to receive a copy:
 
 <p class="center">
