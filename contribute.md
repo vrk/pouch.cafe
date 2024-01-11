@@ -25,7 +25,10 @@ You can contribute to _Pouch_ via the call for submissions below.
 
 If you love making cute journal layouts, I'd love to include a picture of your favorite journal spread or planner page in the first issue of _Pouch_!
 
-- [Submit a journal layout]()
+Here's an example of what your spread might look like in the magazine: [sample spread](/images/sample-journal-spread.png)
+
+- [Submit a journal layout](https://forms.gle/Qx75J1c5zr3Je9jT6)
+  - _NOTE: You'll be required to sign into Google to access the form._
 
 <br>
 
