@@ -21,10 +21,10 @@ I'd love to [invite contributors](/contribute) for the first issue!
 
 The first issue of _Pouch_ is launching in **Spring 2024**.
 
-**Pre-order now** to be among the first to receive a copy:
+**Preorder now** to be among the first to receive a copy:
 
 <p class="center">
-<a href="/preorder" class="button">Pre-order</a>
+<a href="/preorder" class="button">Preorder</a>
 </p>
 
 </div>
