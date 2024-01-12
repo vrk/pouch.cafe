@@ -8,7 +8,9 @@ stylesheet: /css/about.css
 
 # Contribute to _Pouch_
 
-Would you like to be part of the first-ever issue of _Pouch_? 
+<img src="/images/contribute-layout.png">
+
+Would you like to be part of the [first-ever issue of _Pouch_](https://pouchcafe.gumroad.com/l/pouch-01)? 
 I'd love to include your work!!
 
 You can contribute to _Pouch_ via the call for submissions below.
@@ -38,7 +40,7 @@ Do you have a favorite pen? Tell me about it and it may be featured in _Pouch_!
 - [Submit a favorite pen](https://forms.gle/AhA7QJfkQkwXRVEe7)
 
 
-### Contribution details
+## Contribution details
 
 - All submissions will be shown on the Pouch Cafe website, and some will be printed in the issue!
 - All contributors will receive a free digital download of _Pouch_ issue #1.

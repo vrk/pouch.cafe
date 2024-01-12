@@ -6,12 +6,20 @@
 }
 
 .page h1,
-.page h2,
-.page h3 {
+.page h2 {
   font-family: var(--body-font);
   text-align: center;
   color: #18C1F7;
   margin-top: 100px;
+}
+
+.page h3 {
+  font-family: var(--body-font);
+  margin-top: 30px;
+}
+
+ul li {
+  margin-bottom: 20px;
 }
 
 .page h1 {
@@ -24,4 +32,8 @@
 
 small {
   font-size: 14px;;
+}
+
+.page img {
+  max-width: 100%;
 }
