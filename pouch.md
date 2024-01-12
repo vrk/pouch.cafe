@@ -14,7 +14,7 @@ _Pouch_ is an independent [fanzine](https://en.wikipedia.org/wiki/Fanzine) about
 
 The first-ever issue of _Pouch_ is about 80% complete and is slated to ship in **Spring 2024**.
 
-## Pre-order Issue #1 now:
+## Preorder Issue #1 now:
 
 <p class="center">
 <a href="https://pouchcafe.gumroad.com/l/pouch-01" class="button">Preorder</a>
@@ -49,17 +49,17 @@ Here's a sneak peek of what _Pouch_ issue #1 looks like:
 <img src="/images/pouch-preview-spreads.png">
 </p>
 
-### Now available for pre-order
+### Now available for preorder
 
 Check out the shop listing for more info: 
 
 <p class="center">
-<a href="https://pouchcafe.gumroad.com/l/pouch-01" class="button">Pre-order</a>
+<a href="https://pouchcafe.gumroad.com/l/pouch-01" class="button">preorder</a>
 </p>
 
 ## About the project
 
-Currently, _Pouch_ is 100% written, designed, illustrated, and produced by a team of one: **me, vrk**! It is a passion project and a labor of love 💖
+Currently, _Pouch_ is 100% written, designed, illustrated, and produced by a team of one: me, vrk! It is a passion project and a labor of love 💖
 
 I am a huge fan of paper and stationery, and I thought, what better way to share a love of paper than through a paper medium: magazines!
 

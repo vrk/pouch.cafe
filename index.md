@@ -5,10 +5,10 @@ stylesheet: css/index.css
 ---
 <div id="hero">
   <div class="content">
-    <a href="/preorder"><img src="/images/cover.png" class="cover" /></a>
+    <a href="/pouch"><img src="/images/cover.png" class="cover" /></a>
     <div class="herotext">
       <h2>An indie magazine for<br>paper lovers</h2>
-      <a href="/preorder" class="button">Learn More</a>
+      <a href="/pouch" class="button">Learn More</a>
       <p class="psst">Psst: There’s still time to <a href="/contribute">contribute to Pouch</a>, too!</p>
     </div>
   </div>
