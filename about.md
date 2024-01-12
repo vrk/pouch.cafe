@@ -29,7 +29,7 @@ Of course, I love software and the great utility that digital mediums can provid
 
 As an engineer, I respect paper as a tool that can solve certain problems far better than software can. When I journal, by hand, in my notebook I reserve for my innermost private thoughts, I am able to connect within myself far more deeply than when I type. When I look at my Google Calendar on a busy work week, I just want to close the tab again; but when I open my physical planner during a busy life week, I feel a sense of relief. _OK it’s planning time, OK my planner is here to help me, OK it’s gonna be alright._
 
-Even many of the supposed "limitations" or "imperfections" of paper are often its secret strengths. There’s only so much I can write in my physical journal; my hand gets tired after a while. I am reminded to rest. Only so many to-dos can fit on a sticky note, or in the column of a planner. I feel a nudge, _that’s enough for today._ That cheap printed photo, that wobbly handwritten message — that _you_ wrote for _me_ — holds within it a startling amount of life. It’s comforting. It evokes connection. It’s human.
+Even many of the supposed "limitations" or "imperfections" of paper are often its secret strengths. There’s only so much I can write in my physical journal; my hand gets tired after a while. I am reminded to rest. Only so many to-dos can fit on a sticky note, or in the column of a planner. I feel a nudge, _that’s enough for today._ That cheap printed photo, that wobbly handwritten message — that _you_ wrote for _me_ — holds within it a startling amount of life.
 
 _Pouch_ and Pouch Cafe is my love letter to paper and to the community of people who love this medium as much as I do!
 
