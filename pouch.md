@@ -49,13 +49,22 @@ Here's a sneak peek of what _Pouch_ issue #1 looks like:
 <img src="/images/pouch-preview-spreads.png">
 </p>
 
+### Now available for pre-order
+
+Check out the shop listing for more info: 
+
+<p class="center">
+<a href="https://pouchcafe.gumroad.com/l/pouch-01" class="button">Pre-order</a>
+</p>
 
 ## About the project
 
-I am a huge fan of paper and stationery, and I thought, what better way to share a love of paper than through a paper medium: magazines!
-
 Currently, _Pouch_ is 100% written, designed, illustrated, and produced by a team of one: **me, vrk**! It is a passion project and a labor of love 💖
 
-I'd love to [invite contributors](/contribute) for the first issue!
+I am a huge fan of paper and stationery, and I thought, what better way to share a love of paper than through a paper medium: magazines!
+
+✏️ I'd love to [invite contributors](/contribute) for the first issue!
+
+💌 [Subscribe to the newsletter](https://pouchcafe.gumroad.com/subscribe) to keep updated on _Pouch_. 
 
 </div>
