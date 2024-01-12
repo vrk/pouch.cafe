@@ -44,7 +44,4 @@ Do you have a favorite pen? Tell me about it and it may be featured in _Pouch_!
 - All contributors will receive a free digital download of _Pouch_ issue #1.
 - _Pouch_ is an all ages magazine, so please keep contributions suitable for any age 💞
 
-Send any questions to <code>hello@pouch.cafe</code>.
-
-
 </div>
