@@ -35,7 +35,7 @@ stylesheet: css/index.css
   <div class="content">
     <div class="rprpg">
       <div class="coverbox">
-        <a href="/rprpg"><img src="/images/rprpg-cover.png" class="rprpg-cover"/></a>
+        <a href="https://pouchcafe.gumroad.com/l/rprpg"><img src="/images/rprpg-cover.png" class="rprpg-cover"/></a>
       </div>
       <div class="zine-explained">
         <p class="whiteoutlinetext">
@@ -44,7 +44,7 @@ stylesheet: css/index.css
         <big><em>MIGHT</em></big><br>
         turn into a printer (??)
         </p>
-        <a href="/rprpg" class="button">Buy?!?</a>
+        <a href="https://pouchcafe.gumroad.com/l/rprpg" class="button">Buy?!?</a>
       </div> 
     </div>
     <div class="toaster">
@@ -53,10 +53,10 @@ stylesheet: css/index.css
           A <strong>sticker zine</strong> <small>ft</small>
         <big id="toasterthecat">Toaster<br> the cat</big>
         </p>
-        <a href="/toasterzine" class="button">Buy!!</a>
+        <a href="https://pouchcafe.gumroad.com/l/toaster-sticker-zine" class="button">Buy!!</a>
       </div> 
       <div class="coverbox toastercoverbox">
-          <a href="/toasterzine"><img src="/images/toaster-cover.png" class="toaster-cover" /></a>
+          <a href="https://pouchcafe.gumroad.com/l/toaster-sticker-zine"><img src="/images/toaster-cover.png" class="toaster-cover" /></a>
           <small class="whiteoutlinetext">each cat is also a vinyl sticker!</small>
       </div> 
     </div>
