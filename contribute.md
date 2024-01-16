@@ -29,7 +29,7 @@ If you love making cute journal layouts, I'd love to include a picture of your f
 
 - [Submit a journal layout](https://forms.gle/Qx75J1c5zr3Je9jT6)
 
-<small><em>NOTE: You'll be required to sign into Google to access the form. If you're having trouble, send an email to <code>hello@pouch.cafe</code>.</em></small>
+<small><em>NOTE: You might be prompted to sign into Google to access the form. If you're having trouble, send an email to <code>hello@pouch.cafe</code>.</em></small>
 
 <br>
 
