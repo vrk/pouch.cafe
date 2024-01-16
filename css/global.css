@@ -78,12 +78,12 @@ header .grass {
 #cafe-title {
   margin: 0;
   position: absolute;
-  left: 170px;
-  bottom: -53px;
+  left: 180px;
+  bottom: -43px;
   line-height: 1.8;
   font-family: var(--title-font);
   font-weight: normal;
-  font-size: 110px;
+  font-size: 100px;
   z-index: 100;
 }
 
