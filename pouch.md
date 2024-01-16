@@ -8,7 +8,7 @@ stylesheet: /css/about.css
 
 # About _Pouch_ Magazine
 
-<img src="/images/pouch-photo.jpeg">
+<a href="https://pouchcafe.gumroad.com/l/pouch-01?layout=profile"><img src="/images/pouch-photo.jpeg"></a>
 
 _Pouch_ is an independent [fanzine](https://en.wikipedia.org/wiki/Fanzine) about paper and stationery ✂️ It features product reviews, journaling ideas, cool new stationery/stickers/notebooks to check out,  DIYs, and more.
 
@@ -17,7 +17,10 @@ The first-ever issue of _Pouch_ is about 80% complete and is slated to ship in *
 ## Preorder Issue #1 now:
 
 <p class="center">
-<a href="https://pouchcafe.gumroad.com/l/pouch-01" class="button">Preorder</a>
+  <a href="https://pouchcafe.gumroad.com/l/pouch-01?layout=profile"><img src="/images/gumroad/pouch-thumb.png"></a>
+</p>
+<p class="center">
+  <a href="https://pouchcafe.gumroad.com/l/pouch-01?layout=profile" class="button">Preorder</a>
 </p>
 
 ## Pouch Issue #1
@@ -54,7 +57,7 @@ Here's a sneak peek of what _Pouch_ issue #1 looks like:
 Check out the shop listing for more info: 
 
 <p class="center">
-<a href="https://pouchcafe.gumroad.com/l/pouch-01" class="button">preorder</a>
+<a href="https://pouchcafe.gumroad.com/l/pouch-01?layout=profile" class="button">preorder</a>
 </p>
 
 ## About the project
