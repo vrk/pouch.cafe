@@ -1,6 +1,6 @@
 ---
 layout: main
-title: pouch.cafe
+title: Pouch Cafe
 stylesheet: css/index.css
 ---
 <div id="hero">
