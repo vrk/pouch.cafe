@@ -8,8 +8,8 @@ stylesheet: css/index.css
     <a href="/pouch"><img src="/images/cover.png" class="cover" /></a>
     <div class="herotext">
       <h2>An indie magazine for<br>paper lovers</h2>
-      <a href="/pouch" class="button">Learn More</a>
-      <p class="psst">Psst: There’s still time to <a href="/contribute">contribute to Pouch</a>, too!</p>
+      <a href="https://pouchcafe.gumroad.com/l/pouch-01" class="button">Preorder</a>
+      <p class="psst">Psst: <a href="/pouch">Learn more</a> about the project</p>
     </div>
   </div>
 </div>
