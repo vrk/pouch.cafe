@@ -5,7 +5,7 @@ stylesheet: css/index.css
 ---
 <div id="hero">
   <div class="content">
-    <a href="/pouch"><img src="/images/cover.png" class="cover" /></a>
+    <a href="/pouch" style="height: 100%; /* fix firefox bug*/"><img src="/images/cover.png" class="cover" /></a>
     <div class="herotext">
       <h2>An indie magazine for<br>paper lovers</h2>
       <a href="https://pouchcafe.gumroad.com/l/pouch-01" class="button">Preorder</a>
