@@ -11,7 +11,10 @@ script: /js/journal.js
 
 <img src="/images/contribute-layout.png">
 
-Send me a journal layout or planner layout that you made yourself, and it will be included in the layout gallery for Pouch issue #1!  Use the form below to send your submission.
+Would you like to be part of the first issue of _Pouch_?
+I'd love to include your work!
+
+Use the form below to send me a picture of a journal layout or planner layout that you made yourself, and it will be included in the layout gallery for Pouch issue #1! 
 
 
 <details>

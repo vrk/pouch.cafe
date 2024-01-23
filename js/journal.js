@@ -50,9 +50,13 @@ fileInput.onchange = e => {
     }
   }
 }
+
+canvas.addEventListener('click', () => {
+  fileInput.click();
+});
+
 chooseJournal.addEventListener('click', () => {
   fileInput.click();
-  
 });
 
 resetJournal.addEventListener('click', () => {
