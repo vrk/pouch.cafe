@@ -14,27 +14,20 @@ script: /js/journal.js
 Would you like to be part of the first issue of _Pouch_?
 I'd love to include your work!
 
-Use the form below to send me a picture of a journal layout or planner layout that you made yourself, and it will be included in the layout gallery for Pouch issue #1! 
+**Use the form below to send me a picture of a journal layout or planner layout that you made yourself, and it will be included in the layout gallery for Pouch issue #1!**
 
-
-<details>
-  <summary>Details</summary>
-  <ul>
-    <li><strong>Deadline: March 18, 2024</strong>
-    <li>All journal layouts will be displayed on the pouch.cafe website, and some will be published in the magazine. (I'll include as many as I can in the magazine, space permitting!)
-    <li>All contributors will receive a free digital download of Pouch issue #1.
-    <li>You may submit multiple journal layouts, but only one per person will be published.
-    <li>Your email is collected so I can contact you with questions and information about your submission, but it will NOT be published on the website or magazine.
-  </ul>
-</details>
-
-
-**Trouble submitting? Other questions?** Send an email to hello@pouch.cafe!
+<ul>
+  <li><em>Deadline: March 18, 2024</em>
+  <li>All journal layouts will be displayed on the pouch.cafe website, and some will be published in the magazine. (I'll include as many as I can in the magazine, space permitting!)
+  <li>All contributors will receive a free digital download of Pouch issue #1.
+  <li>You may submit multiple journal layouts, but only one per person will be published.
+  <li> <em>Pouch</em> is an all ages magazine, so please keep contributions suitable for any age 
+</ul>
 
 
 
 ---
-
+**Trouble submitting? Other questions?** Send an email to hello@pouch.cafe!
 
 <form id="journalsubmit">
 
@@ -61,7 +54,7 @@ Please take a photo of the full spread from top-down angle, or use a scanner to 
 </details>
 
 
-<div id="upload-photo" tabindex="0">
+<div id="upload-photo">
   <img src="/images/add.png"  class="plus"/>
   Click to select a photo
 </div>
