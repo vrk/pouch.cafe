@@ -38,6 +38,7 @@ form.addEventListener('submit', async (event) => {
       spinner.hidden = true;
       localStorage.clear();
       window.location.href = '/success';
+      return;
     } else {
       const data = await response.json();
       formError.innerHTML = `
