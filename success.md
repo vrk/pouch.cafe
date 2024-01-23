@@ -12,4 +12,6 @@ Thanks for submitting your layout to _Pouch_!
 
 Your form was submitted successfully.
 
+You should get a confirmation email shortly.
+
 </div>

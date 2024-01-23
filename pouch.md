@@ -37,7 +37,6 @@ _Pouch_ Issue #1 will contain over 20 pages of content, printed in full-color in
 - Journaling inspiration
 - A DIY on how to make your own Kuchipatchi coaster
 - A gallery of journal layouts ([add yours!](/contribute))
-- A roundup of people's favorite pens ([add yours!](contribute))
 - And more!
 
 ### Sneak Peek
