@@ -71,7 +71,7 @@ Please send a high resolution photo if possible. _(Max file size: 10 MB)_
 ### 4. Tell us about your journal layout! _(optional)_
 
 - For example, you could talk about what you were journaling about, or focus more on the design of the layout, or talk about your love of stationery in general.
-- Include any special stationery items that you used!
+- What stationery products did you use? The readers would love to know!
 
 <textarea id="layout-description"></textarea>
 

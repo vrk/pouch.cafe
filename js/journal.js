@@ -5,12 +5,22 @@ const MAX_FILE_SIZE_IN_BYTES = 10 * MB_IN_BYTES; // 10 mb
 
 
 const form = document.getElementById('journalsubmit');
-form.addEventListener('submit', async (event) => {
+form.addEventListener('submit', async (event) => {  
   event.preventDefault();
 
-  const journallayout = document.getElementById("journallayout");
+  const journallayout = document.getElementById("journal-img-input");
   const formData  = new FormData();
+  formData.append('name', document.getElementById('name').value);
+  formData.append('email', document.getElementById('email').value);
   formData.append("journallayout", journallayout.files[0]);
+  const desc = document.getElementById('layout-description').value;
+  if (desc && desc.trim().length > 0) {
+    formData.append('layoutdescription', desc);
+  }
+  const social = document.getElementById('social-media').value;
+  if (social && social.trim().length > 0) {
+    formData.append('socialmedia', social);
+  }
 
   const response = await fetch(DEV_ENDPOINT, {
     method: "POST",
@@ -75,20 +85,13 @@ resetJournal.addEventListener('click', () => {
 
 /** validation */
 
-const addValidationListenersFor = (id, errorMsg) => {
+const addValidationListenersFor = (id, validityCheck) => {
   const input = document.getElementById(id);
-  const inputError = document.querySelector(`#${id} + span.error`);
   let noBlur = true;
 
   const errorHandler = (event) => {
     noBlur = false;
-    if (input.validity.valid) {
-      input.classList.remove('error');
-      inputError.innerHTML = '';
-    } else {
-      input.classList.add('error');
-      inputError.innerHTML = errorMsg;
-    }
+    validityCheck();
   };
 
   input.addEventListener('blur', errorHandler);
@@ -97,5 +100,24 @@ const addValidationListenersFor = (id, errorMsg) => {
     return errorHandler(event);
   });
 }
-addValidationListenersFor("email", "A valid email is required");
-addValidationListenersFor("name", "Name is required");
+
+function createValidityCheckFor(id, errorMsg) {
+  const input = document.getElementById(id);
+  const inputError = document.querySelector(`#${id} + span.error`);
+  return () => {
+    if (input.validity.valid) {
+      input.classList.remove('error');
+      inputError.innerHTML = '';
+      return true;
+    } else {
+      input.classList.add('error');
+      inputError.innerHTML = errorMsg;
+      return false;
+    }
+  }
+}
+const emailValidityCheck = createValidityCheckFor('email', 'A valid email is required');
+const nameValidityCheck = createValidityCheckFor('name', 'Name is required');
+
+addValidationListenersFor("email", emailValidityCheck);
+addValidationListenersFor("name", nameValidityCheck);
