@@ -1,5 +1,8 @@
 const PROD_ENDPOINT = 'https://lively-phoenix-d82365.netlify.app/.netlify/functions/journalsubmit';
-const DEV_ENDPOINT = 'http://localhost:8888/.netlify/functions/journalsubmit'
+// const DEV_ENDPOINT = 'http://localhost:8888/.netlify/functions/journalsubmit'
+
+const ENDPOINT = PROD_ENDPOINT;
+
 const MB_IN_BYTES = 1000000;
 const MAX_FILE_SIZE_IN_BYTES = 5 * MB_IN_BYTES; // 5 mb
 
@@ -27,7 +30,7 @@ form.addEventListener('submit', async (event) => {
   }
 
   try {
-    const response = await fetch(DEV_ENDPOINT, {
+    const response = await fetch(ENDPOINT, {
       method: "POST",
       body: formData
     });
