@@ -160,3 +160,15 @@ span.error {
   height: 1px;
   width: 1px;
 }
+
+#submitting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+#submitting-error {
+  color: tomato;
+  margin-top: 1em;
+}

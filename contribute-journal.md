@@ -48,7 +48,7 @@ _This **will NOT** be published on the website or magazine._
 
 Take a photo of the spread from top-down, or use a scanner to scan in your layout.
 
-Please send a high resolution photo if possible. _(Max file size: 10 MB)_
+Please send a high resolution photo if possible. _(Max file size: 5 MB)_
 
 <details class="inline">
   <summary>Example photo</summary>
@@ -84,6 +84,13 @@ Let us know if you have social media accounts or websites that you'd like to pro
 ### 6. Submit!
 
 <input type="submit" />
+
+<div id="submitting" hidden>
+  <img src="/images/loading-spinner.gif" height="40" width="40"> Submitting form...
+</div>
+
+<div id="submitting-error" class="error" hidden>
+</div>
 
 </form>
 

@@ -1,12 +1,16 @@
 const PROD_ENDPOINT = 'https://lively-phoenix-d82365.netlify.app/.netlify/functions/journalsubmit';
 const DEV_ENDPOINT = 'http://localhost:8888/.netlify/functions/journalsubmit'
 const MB_IN_BYTES = 1000000;
-const MAX_FILE_SIZE_IN_BYTES = 10 * MB_IN_BYTES; // 10 mb
+const MAX_FILE_SIZE_IN_BYTES = 5 * MB_IN_BYTES; // 5 mb
 
 
 const form = document.getElementById('journalsubmit');
+const spinner = document.getElementById('submitting');
+const formError = document.getElementById('submitting-error');
 form.addEventListener('submit', async (event) => {  
   event.preventDefault();
+  spinner.hidden = false;
+  formError.hidden = true;
 
   const journallayout = document.getElementById("journal-img-input");
   const formData  = new FormData();
@@ -22,12 +26,33 @@ form.addEventListener('submit', async (event) => {
     formData.append('socialmedia', social);
   }
 
-  const response = await fetch(DEV_ENDPOINT, {
-    method: "POST",
-    body: formData
-  });
-  const data = await response.json();
-  console.log(data);
+  try {
+    const response = await fetch(DEV_ENDPOINT, {
+      method: "POST",
+      body: formData
+    });
+    if (response.status === 200) {
+      spinner.hidden = true;
+      localStorage.clear();
+      window.location.href = '/success';
+    } else {
+      const data = await response.json();
+      formError.innerHTML = `
+        There was an error submitting your form :( <br>
+        Error message: "${data.error}" <br>
+        Please email your submission to hello@pouch.cafe!
+      `;
+      formError.hidden = false;
+    }
+  } catch (error) {
+    formError.innerHTML = `
+      There was an error submitting your form :( <br>
+      Error message: "${error}" <br>
+      Please email your submission to hello@pouch.cafe!
+    `;
+    formError.hidden = false;
+  }
+  spinner.hidden = true;
 })
 
 
@@ -50,7 +75,7 @@ fileInput.onchange = e => {
       if (evt.target.readyState == FileReader.DONE) {
         if (file.size > MAX_FILE_SIZE_IN_BYTES) {
           fileInput.value = '';
-          fileInputError.innerHTML = `File too large (${(file.size / MB_IN_BYTES).toFixed(1)} MB, max 10 MB)`;
+          fileInputError.innerHTML = `File too large (${(file.size / MB_IN_BYTES).toFixed(1)} MB, max 5 MB)`;
           return;
         }
         img.src = evt.target.result;
@@ -121,3 +146,25 @@ const nameValidityCheck = createValidityCheckFor('name', 'Name is required');
 
 addValidationListenersFor("email", emailValidityCheck);
 addValidationListenersFor("name", nameValidityCheck);
+
+setupLocalStorageSavingFor('layout-description');
+setupLocalStorageSavingFor('social-media');
+setupLocalStorageSavingFor('name');
+setupLocalStorageSavingFor('email');
+
+function setupLocalStorageSavingFor(id) {
+  const inputEl = document.getElementById(id);
+  const savedText = localStorage.getItem(id);
+  if (savedText) {
+    inputEl.value = savedText;
+  }
+
+  const save = () => { 
+    localStorage.setItem(id, inputEl.value);
+  }
+  let timeout;
+  inputEl.addEventListener('input', () => {
+    clearTimeout(timeout);
+    timeout = setTimeout(save, 1000);
+  });
+}
