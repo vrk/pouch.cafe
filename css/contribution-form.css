@@ -55,8 +55,6 @@ hr {
 
 #upload-photo {
   cursor:pointer;
-  height: 300px;
-  width: 300px;
   background-color: ghostwhite;
   border: 3px dashed gray;
   border-radius: 25px;
@@ -68,6 +66,12 @@ hr {
   gap: 20px;
   color: gray;
   margin: 1em 0;
+  height: 300px;
+  width: 300px;
+}
+
+#upload-photo:focus-within {
+  border-color: rgba(244, 185, 14, 0.65);
 }
 
 #upload-photo img.plus {
@@ -148,4 +152,11 @@ input[type=submit]:hover {
 span.error {
   color: tomato;
   display: block;
+}
+
+#journal-img-input {
+  /** Hacks to keep validity API **/
+  opacity: 0;
+  height: 1px;
+  width: 1px;
 }

@@ -1,5 +1,8 @@
 const PROD_ENDPOINT = 'https://lively-phoenix-d82365.netlify.app/.netlify/functions/journalsubmit';
 const DEV_ENDPOINT = 'http://localhost:8888/.netlify/functions/journalsubmit'
+const MB_IN_BYTES = 1000000;
+const MAX_FILE_SIZE_IN_BYTES = 10 * MB_IN_BYTES; // 10 mb
+
 
 const form = document.getElementById('journalsubmit');
 form.addEventListener('submit', async (event) => {
@@ -20,15 +23,14 @@ form.addEventListener('submit', async (event) => {
 
 const chooseJournal = document.getElementById('upload-photo');
 const resetJournal = document.getElementById('reset-photo');
-const fileInput = document.createElement('input');
-fileInput.type = 'file';
-fileInput.accept="image/*";
+const fileInput = document.getElementById('journal-img-input');
+const fileInputError = document.querySelector(`#upload-photo + span.error`);
 const canvas = document.getElementById('preview-journal');
 const context = canvas.getContext("2d"); 
 
 fileInput.onchange = e => { 
+  fileInputError.innerHTML = '';
   const file = e.target.files[0]; 
-  console.log(file);
   if (file.type.match('image.*')) {
     const reader = new FileReader();
     const img = new Image()
@@ -36,6 +38,11 @@ fileInput.onchange = e => {
     reader.readAsDataURL(file);
     reader.onload = function(evt){
       if (evt.target.readyState == FileReader.DONE) {
+        if (file.size > MAX_FILE_SIZE_IN_BYTES) {
+          fileInput.value = '';
+          fileInputError.innerHTML = `File too large (${(file.size / MB_IN_BYTES).toFixed(1)} MB, max 10 MB)`;
+          return;
+        }
         img.src = evt.target.result;
         img.onload = () => {
           canvas.height = img.height;
@@ -46,20 +53,13 @@ fileInput.onchange = e => {
         resetJournal.hidden = false;
       }
     }
+  } else {
+    fileInput.value = '';
+    fileInputError.innerHTML = 'Must select an image.';
   }
 }
 
 canvas.addEventListener('click', () => {
-  fileInput.click();
-});
-
-chooseJournal.addEventListener('keyup', (e) => {
-  if (e.key === "Enter") {
-    fileInput.click();
-  }
-})
-
-chooseJournal.addEventListener('click', () => {
   fileInput.click();
 });
 
@@ -69,6 +69,7 @@ resetJournal.addEventListener('click', () => {
   context.clearRect(0, 0, canvas.width, canvas.height);
   chooseJournal.hidden = false;
   resetJournal.hidden = true;
+  fileInput.value = "";
 });
 
 

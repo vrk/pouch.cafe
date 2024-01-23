@@ -48,7 +48,7 @@ _This **will NOT** be published on the website or magazine._
 
 Take a photo of the spread from top-down, or use a scanner to scan in your layout.
 
-Please send a high resolution photo if possible. _(Max size: 10mb)_
+Please send a high resolution photo if possible. _(Max file size: 10 MB)_
 
 <details class="inline">
   <summary>Example photo</summary>
@@ -56,17 +56,17 @@ Please send a high resolution photo if possible. _(Max size: 10mb)_
 </details>
 
 
-<div id="upload-photo">
+<label id="upload-photo" taborder="0">
   <img src="/images/add.png"  class="plus"/>
   Click to select a photo
-</div>
+  <input type="file" accept="image/*" required id="journal-img-input"/>
+</label>
+<span class="error"></span>
 
 <div id="canvas-house">
   <canvas id="preview-journal" height=0 width=0></canvas>
   <input type="button" id="reset-photo" value="✖️ Remove photo" hidden></button>
 </div>
-
-
 
 ### 4. Tell us about your journal layout! _(optional)_
 
