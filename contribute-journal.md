@@ -61,7 +61,7 @@ Please take a photo of the full spread from top-down angle, or use a scanner to 
 </details>
 
 
-<div id="upload-photo">
+<div id="upload-photo" tabindex="0">
   <img src="/images/add.png"  class="plus"/>
   Click to select a photo
 </div>

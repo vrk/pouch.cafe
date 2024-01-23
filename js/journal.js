@@ -55,6 +55,12 @@ canvas.addEventListener('click', () => {
   fileInput.click();
 });
 
+chooseJournal.addEventListener('keyup', (e) => {
+  if (e.key === "Enter") {
+    fileInput.click();
+  }
+})
+
 chooseJournal.addEventListener('click', () => {
   fileInput.click();
 });
