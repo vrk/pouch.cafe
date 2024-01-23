@@ -4,13 +4,11 @@ const DEV_ENDPOINT = 'http://localhost:8888/.netlify/functions/journalsubmit'
 const form = document.getElementById('journalsubmit');
 form.addEventListener('submit', async (event) => {
   event.preventDefault();
-  console.log('hi');
-  const postData = {
-    from: "vrk"
-  }
+
   const journallayout = document.getElementById("journallayout");
   const formData  = new FormData();
   formData.append("journallayout", journallayout.files[0]);
+
   const response = await fetch(DEV_ENDPOINT, {
     method: "POST",
     body: formData
@@ -71,4 +69,32 @@ resetJournal.addEventListener('click', () => {
   context.clearRect(0, 0, canvas.width, canvas.height);
   chooseJournal.hidden = false;
   resetJournal.hidden = true;
-})
+});
+
+
+/** validation */
+
+const addValidationListenersFor = (id, errorMsg) => {
+  const input = document.getElementById(id);
+  const inputError = document.querySelector(`#${id} + span.error`);
+  let noBlur = true;
+
+  const errorHandler = (event) => {
+    noBlur = false;
+    if (input.validity.valid) {
+      input.classList.remove('error');
+      inputError.innerHTML = '';
+    } else {
+      input.classList.add('error');
+      inputError.innerHTML = errorMsg;
+    }
+  };
+
+  input.addEventListener('blur', errorHandler);
+  input.addEventListener('input', (event) => {
+    if (noBlur) { return };
+    return errorHandler(event);
+  });
+}
+addValidationListenersFor("email", "A valid email is required");
+addValidationListenersFor("name", "Name is required");

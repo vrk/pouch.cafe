@@ -20,14 +20,13 @@ I'd love to include your work!
   <li><em>Deadline: March 18, 2024</em>
   <li>All journal layouts will be displayed on the pouch.cafe website, and some will be published in the magazine. (I'll include as many as I can in the magazine, space permitting!)
   <li>All contributors will receive a free digital download of Pouch issue #1.
-  <li>You may submit multiple journal layouts, but only one per person will be published.
-  <li> <em>Pouch</em> is an all ages magazine, so please keep contributions suitable for any age 
+  <li> <em>Pouch</em> is an all ages magazine, so please keep contributions suitable for any age 💖
 </ul>
 
 
+**Trouble submitting? Other questions?** Send an email to <code>hello@pouch.cafe</code>!
 
 ---
-**Trouble submitting? Other questions?** Send an email to hello@pouch.cafe!
 
 <form id="journalsubmit">
 
@@ -35,18 +34,21 @@ I'd love to include your work!
 
 _This **will** be published alongside your submission. A fake name or nickname is OK!_
 
-<input type="text" name="name" value="" placeholder="Name"/>
+<input id="name" type="text" name="name" value="" placeholder="Name" required minlength="1"/>
+<span class="error"></span>
 
 ### 2. Enter your email
 
 _This **will NOT** be published on the website or magazine._
 
-
-<input type="text" name="email" value="" placeholder="Email"/>
+<input id="email" type="email" name="email" value="" placeholder="Email" required/>
+<span class="error"></span>
 
 ### 3. Upload a photo of your journal layout
 
-Please take a photo of the full spread from top-down angle, or use a scanner to scan in your layout.
+Take a photo of the spread from top-down, or use a scanner to scan in your layout.
+
+Please send a high resolution photo if possible. _(Max size: 10mb)_
 
 <details class="inline">
   <summary>Example photo</summary>
