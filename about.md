@@ -21,7 +21,7 @@ I'm running this store for fun as a passion project. I hope you get as much joy 
 
 <img src="/images/me-instax.png" width="250"/>
 
-Hello!! My name is Victoria, aka vrk, and I am a software engineer who loves beautiful paper products: stickers, stationery, journals, calendars, notebooks, and of course, zines! 
+Hello!! [I'm Victoria](https://www.victoriakirst.com/), aka vrk, and I am a software engineer who loves beautiful paper products: stickers, stationery, journals, calendars, notebooks, and of course, zines! 
 
 I have a deep reverence for these analog tools, and I am constantly annoyed that my field (i.e. the tech field) largely dismisses paper as this obsolete thing that software has "replaced." 😑 Absolutely not!! 
 
